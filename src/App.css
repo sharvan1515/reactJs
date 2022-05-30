@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.myHead {
+  font-size: 50px;
+  margin-left: 50px;
+  background-color: #61dafb;
+  color: azure;
+}

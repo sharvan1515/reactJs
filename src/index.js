@@ -3,12 +3,39 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import LeftSideBar from './Components/LeftSideBar';
+import RightSideBar from './Components/RightSideBar';
+import Main from './Components/Main';
+import Employee from './Classbased/Employee';
+import Login from './Login';
+import ClassUpdateDerived from './Components/Update/ClassUpdateDerived';
+import ShouldUpdate from './Components/Update/ShouldUpdate';
+import ComponentDidUpdate from './Components/Update/ComponentDidUpdate';
+import Container from './Components/Container';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+    {/* <Header />
+    <section>
+      <LeftSideBar />
+      <Main />
+    </section>
+    <Footer /> */}
+
+    {/* <Employee dpt="JAVA" /> */}
+    {/* <Login /> */}
+
+    {/* <ClassUpdateDerived  oldName = "Sanjeev" /> */}
+
+    {/* <ShouldUpdate /> */}
+
+    {/* <ComponentDidUpdate username = "sharvan623" /> */}
+    <Container />
+
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
