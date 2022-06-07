@@ -3,13 +3,17 @@ import Car from './Car'
 
 function Garage() {
 
-    const carName = "BMW";
+  const listOfCars = ['ABC','TYO','OPJK','BMW','MARUTI', 'JHJKHK'];
 
   return (
-    <div>
-        <h1>Our Garage Nam is vadodara Auto Service</h1>
-        <Car brand = {carName} />
-    </div>
+    <>
+      <h2>List Of Cars</h2>
+      <ul>
+        {listOfCars.map((car) => <Car brand = {car} />)}
+
+        {/* {listOfCars.map((car) => <li>{car}</li>)} */}
+      </ul>
+    </>
   )
 }
 
