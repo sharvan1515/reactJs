@@ -3,17 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import LeftSideBar from './Components/LeftSideBar';
+// import Header from './Components/Header';
+//import Footer from './Components/Footer';
+//import LeftSideBar from './Components/LeftSideBar';
 import RightSideBar from './Components/RightSideBar';
-import Main from './Components/Main';
+//import Main from './Components/Main';
 import Employee from './Classbased/Employee';
 import Login from './Login';
 import ClassUpdateDerived from './Components/Update/ClassUpdateDerived';
 import ShouldUpdate from './Components/Update/ShouldUpdate';
 import ComponentDidUpdate from './Components/Update/ComponentDidUpdate';
 import Container from './Components/Container';
+
+import Header from './Layouts/Header';
+import Leftsidebar from './Layouts/Leftsidebar';
+import Main from './Layouts/Main';
+import Footer from './Layouts/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,8 +38,16 @@ root.render(
     {/* <ShouldUpdate /> */}
 
     {/* <ComponentDidUpdate username = "sharvan623" /> */}
-    <Container />
-
+    {/* <Container /> */}
+    {/* <App /> */}
+    
+    {/* <Header />
+    <section>
+      <Leftsidebar />
+      <Main />
+    </section>
+    <Footer /> */}
+    <App />
   </>
 );
 

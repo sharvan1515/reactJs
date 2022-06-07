@@ -15,6 +15,11 @@ class Container extends Component {
     render() {
         let myHeader;
 
+        const make = 'Ford';
+const model = 'Mustang';
+const car = { make, model };
+console.log(car);
+
         if(this.state.show) {
             myHeader = <Child />
         }

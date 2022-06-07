@@ -9,7 +9,6 @@ class Child extends Component {
     render() {
         return (
             <div>
-                
                 <p>This is Child Component</p>
             </div>
         );
