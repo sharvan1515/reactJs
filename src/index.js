@@ -48,6 +48,7 @@ root.render(
     </section>
     <Footer /> */}
     <App />
+    
   </>
 );
 
